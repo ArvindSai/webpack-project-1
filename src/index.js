@@ -1,18 +1,5 @@
-import './styles/index.scss';
+import { render } from 'react-dom';
+import App from './components/App';
 
-const myObject = {
-    "openers": {
-        "striker": "Rohit",
-        "non-striker": "Rahul",
-    },
-    "#3": "Cheteswar Pujara",
-    "#4": "Virat Kohli",
-};
-
-console.log(myObject);
-
-const myObject2 = {
-    ...myObject,
-};
-console.log(myObject2);
+render(<App />, document.getElementById('root'));
 

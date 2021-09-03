@@ -12,6 +12,8 @@
   },
   "homepage": "https://github.com/ArvindSai/webpack-project-1#readme",
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "webpack": "^5.51.2",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.1.0"
@@ -19,6 +21,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.4",
     "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.3",
     "css-loader": "^6.2.0",
