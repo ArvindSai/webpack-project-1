@@ -8,3 +8,9 @@ const myObject = {
 };
 
 console.log(myObject);
+
+const myObject2 = {
+    ...myObject,
+};
+console.log(myObject2);
+
