@@ -18,4 +18,11 @@ body {
   button {
     font-size: 1.5rem;
   }
+
+  .hero {
+    background: url("../images/swc-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+  }
 }
